@@ -1,0 +1,20 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 200px; /* Setze die gewünschte Breite der Bilder */
+    height: 200px; /* Setze die gewünschte Höhe der Bilder */
+    margin: 10px; /* Setze den gewünschten Abstand zwischen den Bildern */
+    object-fit: cover; /* Skaliert das Bild so, dass es den gesamten verfügbaren Platz ausfüllt */
+}
