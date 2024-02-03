@@ -31,6 +31,3 @@ function render() {
     // Bilder in den Container einfügen
     container.innerHTML = html;
 }
-
-// Aufruf der Funktion
-render();
